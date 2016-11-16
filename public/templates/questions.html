@@ -14,7 +14,7 @@
                 <label>{{randomQuestion.question}}</label>
               </div>
             </div>
-            <input ng-keyup="$event.keyCode == 13 ? getRandomQuestion(questions, userAnswer) : null" ng-model="userAnswer" type="text" id="userAnswerBox"/>
+            <input ng-keyup="$event.keyCode == 13 ? getRandomQuestion(questions, userAnswer) : null" ng-model="userAnswer" type="text" placeholder="Answer" id="userAnswerBox"/>
             <button ng-click="getRandomQuestion(questions, userAnswer)" id="answerButton" type="button">Submit</button>
           </div>
         </div>
