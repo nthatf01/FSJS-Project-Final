@@ -1,0 +1,11 @@
+{
+  "name": "fjsj-project-quick-recall",
+  "version": "1.0.0",
+  "description": "Nathaniel Hatfield's project for the Sept. 2016 FSJS Code Louisville Class",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
