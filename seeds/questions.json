@@ -1,32 +1,128 @@
 [
   {
-    "number": "1",
-    "question": "After it was burned to the ground during the War of 1812, its contents were replenished with the private collection of Thomas Jefferson. It now contains over 32 million books, and countless other types of periodicals. What library in Washington, D.C., is the largest library on earth?",
-    "answer": ["LIBRARY OF CONGRESS", "THE LIBRARY OF CONGRESS"],
-    "subject": "SS"
+   "number": "1",
+   "question": "After it was burned to the ground during the War of 1812, its contents were replenished with the private collection of Thomas Jefferson. It now contains over 32 million books, and countless other types of periodicals. What library in Washington, D.C., is the largest library on earth?",
+   "answer": ["LIBRARY OF CONGRESS", "THE LIBRARY OF CONGRESS"],
+   "subject": "SS"
   },
   {
-    "number": "2",
-    "question": "Consider the number with the following digits: two-one-seven-eight point five-four-six. What number is in the hundredths place?",
-    "answer": ["4", "FOUR"],
-    "subject": "MA"
+   "number": "2",
+   "question": "Consider the number with the following digits: two-one-seven-eight point five-four-six. What number is in the hundredths place?",
+   "answer": ["4", "FOUR"],
+   "subject": "MA"
   },
   {
-    "number": "3",
-    "question": "If one bell is half the size of a second bell, its sound will be this interval higher than that of the larger one. What term refers to the distance between any note, and the next highest or lowest occurrence of that same note?",
-    "answer": ["OCTAVE", "OCTAVES"],
-    "subject": "AH"
+   "number": "3",
+   "question": "If one bell is half the size of a second bell, its sound will be this interval higher than that of the larger one. What term refers to the distance between any note, and the next highest or lowest occurrence of that same note?",
+   "answer": ["OCTAVE", "OCTAVES"],
+   "subject": "AH"
   },
   {
-    "number": "4",
-    "question": "In this book, the Korean orphan Tree-ear lives with Crane-Man under a bridge. Tree-Ear breaks Min's pottery on the way to Songdo, but the emissary hires Min anyway. What is this book written by Linda Sue Park?",
-    "answer": ["A SINGLE SHARD", "SINGLE SHARD"],
-    "subject": "LA"
+   "number": "4",
+   "question": "In this book, the Korean orphan Tree-ear lives with Crane-Man under a bridge. Tree-Ear breaks Min's pottery on the way to Songdo, but the emissary hires Min anyway. What is this book written by Linda Sue Park?",
+   "answer": ["A SINGLE SHARD", "SINGLE SHARD"],
+   "subject": "LA"
   },
   {
-    "number": "5",
-    "question": "This occurs when a force makes an object move in a direction parallel to that force. What scientific term is measured by force times distance?",
-    "answer": ["WORK"],
-    "subject": "SC"
+   "number": "5",
+   "question": "This occurs when a force makes an object move in a direction parallel to that force. What scientific term is measured by force times distance?",
+   "answer": ["WORK"],
+   "subject": "SC"
+  },
+  {
+   "number": "6",
+   "question": "A person can choose from a menu of 12 entrees and 6 drinks. How many different entrée and drink combinations can the person choose?",
+   "answer": ["72"],
+   "subject": "MA"
+  },
+  {
+   "number": "7",
+   "question": "Around sixty volcanoes are found on these islands southeast of the Bering Strait. Two of the islands were the only U.S. territory occupied by the Japanese during World War Two. What island chain extends southwest from Alaska?",
+   "answer": ["ALEUTIAN ISLANDS", "ALEUTIAN", "ALEUTIANS"],
+   "subject": "SS"
+  },
+  {
+   "number": "8",
+   "question": "Before it gained valves, the only way to change pitch on this instrument was to close off the bell with a hand. Its name is often applied to any member of the brass family. In what brass instrument does the bell face away from the listener?",
+   "answer": ["FRENCH HORN", "FRENCH HORNS", "HORN", "HORNS", "HORN IN F", "HORNS IN F"],
+   "subject": "AH"
+  },
+  {
+   "number": "9",
+   "question": "In Milkweed, this author writes about an orphan living in the Warsaw ghetto. His best-known novel contains the East Ender Amanda Beale. Who wrote Maniac Magee?",
+   "answer": ["JERRY SPINELLI", "SPINELLI"],
+   "subject": "LA"
+  },
+  {
+   "number": "10",
+   "question": "The word for this kind of light comes from Latin words that mean 'to make art.' What term refers to light from a man-made source, such as a light bulb or neon sign?",
+   "answer": ["ARTIFICIAL", "ARTIFICIAL LIGHT"],
+   "subject": "SC"
+  },
+  {
+   "number": "11",
+   "question": "French name, please. People celebrating this day will often wear masks and take part in parades. What holiday falls the day before Ash Wednesday, and has a name that is French for 'Fat Tuesday?'",
+   "answer": ["MARDI GRAS"],
+   "subject": "AH"
+  },
+  {
+   "number": "12",
+   "question": "Consider the fractions two thirds, three fourths, and one half. List these fractions from smallest to largest.",
+   "answer": ["ONE-HALF, TWO-THIRDS, THREE-FOURTHS", "ONE HALF, TWO THIRDS, THREE FOURTHS", "1/2, 2/3, 3/4", "1/2 2/3 3/4"],
+   "subject": "MA"
+  },
+  {
+   "number": "13",
+   "question": "According to the story, he was a Hessian killed by a cannonball during the American Revolution. Brom Bones dresses as him to frighten Ichabod Crane. Identify this figure, who appears in Washington Irving's story 'The Legend of Sleepy Hollow.'",
+   "answer": ["THE HEADLESS HORSEMAN", "HEADLESS HORSEMAN"],
+   "subject": "LA"
+  },
+  {
+   "number": "14",
+   "question": "Modern versions of this dance attire may closely resemble sneakers, and have a full or partial sole. They might be used for such dances as the jitterbug and the hop. What kind of dance shoe shares its name with a type of American improvisatory music of the twentieth century?",
+   "answer": ["JAZZ SHOES", "JAZZ"],
+   "subject": "AH"
+  },
+  {
+   "number": "15",
+   "question": "The temperatures in this layer of the atmosphere increase as the distance from Earth increases. It is contained in the area some 10 to 30 miles above the Earth's surface. Name this layer which contains the ozone layer.",
+   "answer": ["STRATOSPHERE"],
+   "subject": "SC"
+  },
+  {
+   "number": "16",
+   "question": "A marathon is 26.2 miles long. A cross-country runner has run 19.4 miles today. In miles, how much farther does she have to run to complete a marathon?",
+   "answer": ["6.8", "6.8 MILES"],
+   "subject": "MA"
+  },
+  {
+   "number": "17",
+   "question": "Arlington, Loudoun, and Fairfax Counties can all be found in this Atlantic Coast state. The York and James Rivers are also found here. What state is home to the earliest permanent English settlement, and has its capital at Richmond?",
+   "answer": ["VIRGINIA", "VA"],
+   "subject": "SS"
+  },
+  {
+   "number": "18",
+   "question": "In much the same way that kidneys remove waste from the human body, this part of the cell removes waste from the cell. In what part of the cell do enzymes that break down waste products play a crucial roll?",
+   "answer": ["LYSOSOME", "LYSOSOMES"],
+   "subject": "SC"
+  },
+  {
+   "number": "19",
+   "question": "Characters who die in this play include Polonius, Laertes, and Gertrude. In one scene, the protagonist examines a skull, musing 'Alas, poor Yorick. I knew him, Horatio.' Name this Shakespearean tragedy about a prince of Denmark who wonders 'to be, or not to be; that is the question.'",
+   "answer": ["HAMLET", "HAMLET, PRINCE OF DENMARK", "TRAGEDY OF HAMLET", "TRAGEDY OF HAMLET, PRINCE OF DENMARK", "THE TRAGEDY OF HAMLET", "THE TRAGEDY OF HAMLET, PRINCE OF DENMARK"],
+   "subject": "AH"
+  },
+  {
+   "number": "20",
+   "question": "The meteorologist's weather prediction is ninety percent BLANK. What eight letter word beginning with the letter 'A' is a synonym of 'correct?'",
+   "answer": ["ACCURATE"],
+   "subject": "LA"
+  },
+  {
+   "number": "21",
+   "question": "This literary device is used by a book that refers to a Batman comic or a Shakespearean play. Which figure of speech occurs when an artwork refers to people, places, events, or other artworks?",
+   "answer": ["ALLUSION"],
+   "subject": "LA"
   }
 ]
