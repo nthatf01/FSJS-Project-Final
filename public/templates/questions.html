@@ -1,0 +1,49 @@
+<div>
+      <div ng-controller="tabCtrl"> <!-- Angular Controller for Tab Navigation -->
+        <ul class="navTabs">
+          <li><a href="" ng-click="sel=1">Quiz</a></li>
+          <li><a href="" ng-click="sel=2">Question Admin</a></li>
+          <li><a href="" ng-click="sel=2">TBD</a></li>
+        </ul>
+        <div ng-controller="quizCtrl" ng-show="sel == 1"> <!-- Quiz Tab -->
+          <h1>Quiz</h1>
+          <div>
+            <h2>Score: {{player.playerQuestionsCorrect}} / {{player.playerQuestionsAsked}}</h2>
+            <div>
+              <div>
+                <label>{{randomQuestion.question}}</label>
+              </div>
+            </div>
+            <input ng-keyup="$event.keyCode == 13 ? getRandomQuestion(questions, userAnswer) : null" ng-model="userAnswer" type="text" id="userAnswerBox"/>
+            <button ng-click="getRandomQuestion(questions, userAnswer)" id="answerButton" type="button">Submit</button>
+          </div>
+        </div>
+        <div ng-show="sel == 2" ng-controller="questionManagementCtrl" class="questionList"> <!-- Question Admin Console Tab -->
+          <h1>Questions</h1>
+          <div class="add">
+            <a href="" ng-click="addQuestion()">+ Add a New Question</a>
+          </div>
+          <div ng-repeat="question in questions" class="adminQuestionContainer">
+            <label ng-hide="editing" class="questionNumber">#:{{question.number}}</label>
+            <input ng-show="editing" ng-model="question.number" class="questionNumber" type="text"/>
+            <label ng-hide="editing" class="question">Q: {{question.question}}</label>
+            <input ng-show="editing" ng-model="question.question" class="question" type="text"/>
+            <label ng-hide="editing" class="answer">A: {{question.answer}}</label>
+            <input ng-show="editing" ng-model="question.answer" class="answer" type="text"/>
+            <label ng-hide="editing" ng-model="editing" class="questionSubject">Subject: {{question.subject}}</label>
+            <select ng-show="editing" ng-model="question.subject" name="qSubejctList" class="questionSubject">
+              <option value="AH">Arts and Humanities</option>
+              <option value="LA">Language Arts</option>
+              <option value="MA">Math</option>
+              <option value="SC">Science</option>
+              <option value="SS">Social Studies</option>
+            </select>
+            <div class="actions">
+              <a href="" ng-click="editing = !editing">edit</a>
+              <a href="" ng-click="saveQuestion(question)">save</a>
+              <a href="" ng-click="deleteQuestion(question, $index)">delete</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
