@@ -13,7 +13,7 @@ angular.module('qrQuestionApp')
 
   dataService.getQuestions(function(response){
     console.log(response.data);
-    $scope.questions = response.data;
+    $scope.questions = response.data.questions;
     $scope.randomQuestion = $scope.questions[Math.floor(Math.random() * $scope.questions.length)];
   });
 })
@@ -39,7 +39,7 @@ angular.module('qrQuestionApp')
     console.log("Score: " + $scope.player.playerQuestionsCorrect + " / " + $scope.player.playerQuestionsAsked);
     console.log(correctAnswer);
     $scope.randomQuestion = $scope.questions[Math.floor(Math.random() * $scope.questions.length)];
-    $("#userAnswerBox").val('');
+    //$("#userAnswerBox").val('');
   };
 })
 
@@ -52,8 +52,9 @@ angular.module('qrQuestionApp')
   };
 
   $scope.deleteQuestion = function(question, $index) {
-    dataService.deleteQuestion(question);
-    $scope.questions.splice($index, 1);
+    dataService.deleteQuestion(question).then(function(){
+      $scope.questions.splice($index, 1);  
+    });
   };
 
   $scope.saveQuestion = function(question){
