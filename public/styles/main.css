@@ -3,6 +3,32 @@
 }
 
 /*----- Styles for the Navigation Tabs -----*/
+.navTabs {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navTabs li {
+  display: inline;
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+.navTabs li:last-child {
+  border-right: none;
+}
+
 .navTabs a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
+}
+
+.navTabs a:hover {
+  background-color: #111;
 }
