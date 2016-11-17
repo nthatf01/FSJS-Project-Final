@@ -11,7 +11,7 @@
             <h3>Score: {{player.playerQuestionsCorrect}} / {{player.playerQuestionsAsked}}</h3>
             <div>
               <div>
-                <label>{{randomQuestion.question}}</label>
+                <label class="questionLabel">{{randomQuestion.question}}</label>
               </div>
             </div>
             <input ng-keyup="$event.keyCode == 13 ? getRandomQuestion(questions, userAnswer) : null" ng-model="userAnswer" type="text" placeholder="Answer" id="userAnswerBox"/>

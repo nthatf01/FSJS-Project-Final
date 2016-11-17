@@ -18,6 +18,10 @@
   width: 100%;
 }
 
+.questionLabel {
+  font-size: 24px;
+}
+
 /*----- Question Admin styles -----*/
 
 #qAdminTab {
