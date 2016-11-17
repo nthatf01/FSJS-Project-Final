@@ -18,7 +18,7 @@
             <button ng-click="getRandomQuestion(questions, userAnswer)" id="answerButton" type="button">Submit</button>
           </div>
         </div>
-        <div ng-show="sel == 2" ng-controller="questionManagementCtrl" class="questionList"> <!-- Question Admin Console Tab -->
+        <div ng-show="sel == 2" ng-controller="questionManagementCtrl" class="questionList" id="qAdminTab"> <!-- Question Admin Console Tab -->
           <h2>Questions</h2>
           <div class="add">
             <a href="" ng-click="addQuestion()">+ Add a New Question</a>
