@@ -23,6 +23,14 @@ angular.module('qrQuestionApp')
 /*----- Initialize the tab navigation to start on the Quiz Tab -----*/
 .controller('tabCtrl', function($scope){
   $scope.sel = 1;
+
+/*----- Change selected tab on click -----*/
+  $scope.selectedTab = function(clickedNavTab){
+    document.getElementById("quiz").className = "";
+    document.getElementById("qadmin").className = "";
+    document.getElementById("tbd").className = "";
+    document.getElementById(clickedNavTab).className = "activeTab";
+  };
 })
 
 /*----- Controller for the Quiz Tab -----*/
