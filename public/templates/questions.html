@@ -39,9 +39,11 @@
               <option value="SS">Social Studies</option>
             </select>
             <div class="actions">
-              <a href="" ng-hide="editing" ng-click="editing = !editing">edit</a>
-              <a href="" ng-show="editing" ng-click="saveQuestion(question); editing = !editing">save</a>
-              <a href="" ng-click="deleteQuestion(question, $index)">delete</a>
+              <ul>
+                <li><a href="" ng-hide="editing" ng-click="editing = !editing">edit</a></li>
+                <li><a href="" ng-show="editing" ng-click="saveQuestion(question); editing = !editing">save</a></li>
+                <li><a href="" ng-click="deleteQuestion(question, $index)" id="deleteAction">delete</a></li>
+              </ul>
             </div>
           </div>
         </div>
