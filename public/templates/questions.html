@@ -5,7 +5,7 @@
           <li><a href="" ng-click="sel=2; selectedTab('qadmin')" id="qadmin">Question Admin</a></li>
           <li><a href="" ng-click="sel=2; selectedTab('tbd')" id="tbd">TBD</a></li>
         </ul>
-        <div ng-controller="quizCtrl" ng-show="sel == 1"> <!-- Quiz Tab -->
+        <div ng-controller="quizCtrl" ng-show="sel == 1" id="quizTab"> <!-- Quiz Tab -->
           <h2>Quiz</h2>
           <div>
             <h3>Score: {{player.playerQuestionsCorrect}} / {{player.playerQuestionsAsked}}</h3>

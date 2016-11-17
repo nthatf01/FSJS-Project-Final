@@ -2,6 +2,25 @@
   margin-bottom: 20px;
 }
 
+/*----- Quiz Tab styles -----*/
+#quizTab {
+  width: 100%;
+}
+
+#quizTab label {
+  line-height: 1.50;
+}
+
+#userAnswerBox {
+  width: 100%;
+  height: 64px;
+  font-size: 60px;
+}
+
+#answerButton {
+  width: 100%;
+}
+
 /*----- Header styles -----*/
 
 header {
@@ -86,6 +105,11 @@ header h1 {
 
   header h1 {
     padding-top: 73px;
+  }
+
+  #quizTab {
+    width: 600px;
+    margin: auto;
   }
 }
 
