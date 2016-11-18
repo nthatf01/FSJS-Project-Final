@@ -4,6 +4,7 @@
   "description": "Nathaniel Hatfield's project for the Sept. 2016 FSJS Code Louisville Class",
   "main": "src/app.js",
   "scripts": {
+    "start": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

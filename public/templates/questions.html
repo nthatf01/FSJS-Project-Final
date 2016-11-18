@@ -26,13 +26,7 @@
           <div ng-repeat="question in questions | orderBy: 'number'" class="adminQuestionContainer">
             <label ng-hide="editing" class="questionNumber">Number: {{question.number}}</label>
             <label ng-show="editing" class="questionNumber">Number: </label>
-            <input ng-show="editing" ng-model="question.number" class="questionNumber" type="text"/><br>
-            <label ng-hide="editing" class="question">Question: {{question.question}}</label>
-            <label ng-show="editing" class="question">Question: </label>
-            <input ng-show="editing" ng-model="question.question" class="question" type="text"/><br>
-            <label ng-hide="editing" class="answer">Answer(s): {{question.answer}}</label>
-            <label ng-show="editing" class="answer">Answer(s): </label>
-            <input ng-show="editing" ng-model="question.answer" class="answer" type="text"/><br>
+            <input ng-show="editing" ng-model="question.number" class="questionNumber" type="text"/>
             <label ng-hide="editing" ng-model="editing" class="questionSubject">Subject: {{question.subject}}</label>
             <label ng-show="editing" ng-model="editing" class="questionSubject">Subject: </label>
             <select ng-show="editing" ng-model="question.subject" name="qSubejctList" class="questionSubject">
@@ -41,7 +35,13 @@
               <option value="MA">Math</option>
               <option value="SC">Science</option>
               <option value="SS">Social Studies</option>
-            </select>
+            </select><br>
+            <label ng-hide="editing" class="question">Question: {{question.question}}</label>
+            <label ng-show="editing" class="question">Question: </label>
+            <input ng-show="editing" ng-model="question.question" class="question" type="text"/><br>
+            <label ng-hide="editing" class="answer">Answer(s): {{question.answer}}</label>
+            <label ng-show="editing" class="answer">Answer(s): </label>
+            <input ng-show="editing" ng-model="question.answer" class="answer" type="text"/><br>
             <div class="actions">
               <ul>
                 <li><a href="" ng-hide="editing" ng-click="editing = !editing">edit</a></li>
