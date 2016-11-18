@@ -178,5 +178,65 @@
    "question": "They are the most common molecules found in biology. What kinds of molecules store and transport energy, and are found in starches and sugars.",
    "answer": ["CARBOHYDRATE", "CARBOHYDRATES"],
    "subject": "SC"
+ },
+  {
+   "number": "31",
+   "question": "Listen to this sentence: Carlos and Joni sang carols to the nursing home's residents. Identify the previous sentence's direct object.",
+   "answer": ["CAROLS"],
+   "subject": "LA"
+  },
+  {
+   "number": "32",
+   "question": "A circle has a radius of 7 units. In terms of pi units, what is the circumference of this circle?",
+   "answer": ["14 PI", "14 PI UNITS"],
+   "subject": "MA"
+  },
+  {
+   "number": "33",
+   "question": "Under Article Three of the U.S. Constitution, this type of trial is guaranteed to people accused of a crime. In what kind of trial does a group of the defendant's peers decide if the defendant is guilty or not guilty?",
+   "answer": ["JURY"],
+   "subject": "SC"
+  },
+  {
+   "number": "34",
+   "question": "In 1913, this Louisville lawyer decided to pursue an education in astronomy. He is credited as the first to declare that the universe extends further than the Milky Way Galaxy. Name this man, who has both a law of astronomy and a telescope named after him.",
+   "answer": ["EDWIN HUBBLE", "HUBBLE"],
+   "subject": "SC"
+  },
+  {
+   "number": "35",
+   "question": "This note’s line is surrounded by the dots of the bass clef staff. Its major key signature has a single flat, B-flat. Name this note, found on the lowest space of the treble clef staff.",
+   "answer": ["F", "F NATURAL"],
+   "subject": "AH"
+  },
+  {
+   "number": "36",
+   "question": "An example of this sentence structure is, 'Madeline ate noodles, but I had broccoli.' Which type of sentence contains two or more independent clauses?",
+   "answer": ["COMPOUND", "COMPOUND SENTENCE"],
+   "subject": "LA"
+  },
+  {
+   "number": "37",
+   "question": "Characters in this 1944 ballet include a preacher and a pair of newlyweds. Commissioned and choreographed by Martha Graham, it borrows the melody of the Shaker hymn 'Simple Gifts.' The title of what ballet by Aaron Copland contains the name of a mountain range?",
+   "answer": ["APPALACHIAN SPRING"],
+   "subject": "AH"
+  },
+  {
+   "number": "38",
+   "question": "Explorers from this country claimed the northern area of the Mississippi River and the region of the St. Lawrence River. Citizens of this nation founded the cities of Quebec and Montreal. What nation sent out such explorers as Jacques Cartier and Samuel de Champlain?",
+   "answer": ["FRANCE"],
+   "subject": "SS"
+  },
+  {
+   "number": "39",
+   "question": "Consider a square. How many lines of symmetry does a square have?",
+   "answer": ["4", "FOUR"],
+   "subject": "MA"
+  },
+  {
+   "number": "40",
+   "question": "These rocks are formed by heat and pressure. They contain minerals in a long straight row. The name of what type of rocks comes from a root meaning 'changed'?",
+   "answer": ["METAMORPHIC", "METAMORPHIC ROCK", "METAMORPHIC ROCKS"],
+   "subject": "SC"
   }
 ]
