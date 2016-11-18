@@ -124,5 +124,59 @@
    "question": "This literary device is used by a book that refers to a Batman comic or a Shakespearean play. Which figure of speech occurs when an artwork refers to people, places, events, or other artworks?",
    "answer": ["ALLUSION"],
    "subject": "LA"
+  },
+  {
+    "number": "22",
+    "question": "This type of art was created by members of both the Danube and Hudson River schools, who drew on inspiration from their native country’s beauty. What type of art is a portrayal of mountains, rivers, forests, and other natural features?",
+    "answer": ["LANDSCAPE", "LANDSCAPES"],
+    "subject": "AH"
+  },
+  {
+   "number": "23",
+   "question": "Associated with those who practice Wicca, this activity can include a fascination with the dead and incantations. For what activity were numerous people tried, convicted, and executed in Salem, Massachusetts?",
+   "answer": ["WITCHCRAFT"],
+   "subject": "SS"
+  },
+  {
+   "number": "24",
+   "question": "Cubing a number means to multiply it by itself, and then multiply that answer by the original number one more time. Estimate, to the nearest whole number, three point zero one cubed.",
+   "answer": ["27"],
+   "subject": "MA"
+  },
+  {
+   "number": "25",
+   "question": "These bees are allowed to live only when food is abundant and there are a lot of bees in the hive. What name is given to the male bees whose only job is to mate with the queen?",
+   "answer": ["DRONE", "DRONES"],
+   "subject": "SC"
+  },
+  {
+   "number": "26",
+   "question": "Commonly found in the front of colonial houses, this room was often used for the initial reception of guests. In modern times, the word is often found following the words 'pizza' or 'tattoo.' What is this word beginning with 'P'?",
+   "answer": ["PARLOR", "PARLORS"],
+   "subject": "LA"
+  },
+  {
+   "number": "27",
+   "question": "Donn has a $5 bill. He asks a bank teller to give him as many nickels as he can get for his $5. How many nickels will he receive?",
+   "answer": ["100"],
+   "subject": "MA"
+  },
+  {
+   "number": "28",
+   "question": "Earlier versions of this communication method were created in Europe in the late 1700s, and used lines of sight. The version used in the United States was invented in the early nineteenth century. What 1837 invention relays messages over long distances, using a code that was created by Samuel Morse's assistant?",
+   "answer": ["TELEGRAPH"],
+   "subject": "SC"
+  },
+  {
+   "number": "29",
+   "question": "Plural form please. If both of your sisters marry, you will have two of these relations in your family. What is the correct plural form of the compound word 'brother-in-law?'",
+   "answer": ["BROTHERS-IN-LAW"],
+   "subject": "LA"
+  },
+  {
+   "number": "30",
+   "question": "They are the most common molecules found in biology. What kinds of molecules store and transport energy, and are found in starches and sugars.",
+   "answer": ["CARBOHYDRATE", "CARBOHYDRATES"],
+   "subject": "SC"
   }
 ]
